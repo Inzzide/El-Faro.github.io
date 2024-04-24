@@ -1,0 +1,99 @@
+header {
+    display: flex;
+    justify-content: space-between; /* Distribuir el espacio entre elementos */
+    align-items: center; /* Alinear elementos verticalmente */
+    padding: 20px;
+    background-color: #fffefe;
+  }
+
+  /* Estilos para la imagen del encabezado */
+header img {
+    max-width: 240px; /* Ancho máximo para la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+
+/* Estilos del reloj */
+.reloj {
+  font-family: 'Share Tech Mono', monospace;
+  color: #0d6efd;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -450%);
+  margin-top: -100px; /* Ajusta el margen superior para posicionar correctamente el reloj */
+  text-shadow: 0 0 20px #000000 , 0 0 20px #000000 ;
+}
+
+.tiempo {
+  font-family: 'Share Tech Mono', monospace;
+  letter-spacing: 0.05em;
+  font-size: 24px;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+.fecha {
+  font-family: 'Share Tech Mono', monospace;
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Estilo distinto para el footer */
+.footer {
+  background-color: #0d6efd;
+  color: #000000;
+  text-align: center; /* Centrar el contenido del footer */
+  padding: 20px; /* Espacio interno dentro del footer */
+  margin-top: 20px; /* Espacio superior para separar del contenido */
+}
+
+.noticia-container {
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados para suavizar la apariencia */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra negra */
+  padding: 30px; /* Espaciado interno para separar el contenido del borde */
+  margin-bottom: 20px; /* Margen inferior para separar las noticias */
+  margin-top: 20px; /* margen superior para separar las noticias */
+}
+
+/* Estilo para el video */
+video {
+  max-width: 100%; /* Establece el ancho máximo del video al 100% del contenedor */
+  max-height: 400px; /* Establece la altura máxima del video  */
+  height: auto; /* Permite que la altura se ajuste automáticamente según el ancho máximo */
+}
+
+
+.container.fixed-bottom {
+  width: 100%;
+  position: fixed;
+  bottom: 60px;  
+}
+
+
+  /* Color del texto en el carousel */
+  .carousel-caption h5,
+  .carousel-caption p {
+    color: white; /* Cambiar a color blanco */
+  }
+
+  /* Color de las flechas del carousel */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%); /* Cambiar a color blanco */
+  }
+
+  /* Color del fondo de las flechas cuando se pasa el mouse */
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Cambiar a un color semitransparente blanco */
+  }
+
+  /* Estilo para el carousel */
+  .carousel {
+    max-width: 100%; /* Hacer que el carousel tenga como máximo el ancho del contenedor */
+    margin: auto; /* Centrar el carousel dentro del contenedor */
+  }
